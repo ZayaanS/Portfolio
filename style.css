@@ -1,0 +1,248 @@
+/* ------ Font ------ */
+@font-face {
+    font-family: 'signature';
+    src: url('fonts/amanda-signature.regular-webfont.woff2') format('woff2'),
+         url('fonts/amanda-signature.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headingMain{
+	font-family: signature;
+}
+
+.headingSub{
+	font-family: 'Playfair Display', serif;
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+/* ------ General ------ */
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ------ Navigation ------ */
+nav{
+	background-color: #fdefda;
+}
+
+nav a img{
+	height: 80px;
+}
+
+.navbar{
+	padding: 10px 50px;
+}
+
+.navbar .nav-item{
+	padding-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: #000000;
+	font-size: 16px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: #d4796a;
+}
+
+.sticky{
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ------Landing ------ */
+#Landing{
+	/*
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+	*/
+	height: 100vh;
+}
+
+#LandingBlock{
+	/*background-color: rgba(0,0,0,0.4);*/
+	margin-top: 154px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#LandingIntro{
+	font-size: 55px;
+	color: #d4796a;
+}
+
+#LandingP{
+	font-size: 18px;
+}
+
+#LandingCloser{
+	font-size: 40px;
+	color: #d4796a;
+}
+
+#landingPage button{
+	border: none;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+#scroll{
+	color: #000000;
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+#scrollImg{
+	height: 25px;
+}
+
+
+/* ------- Landing ------ */
+#landingPage{
+	height: 100vh;
+	padding: 0px 100px 50px 0px;
+}
+
+#landingImg{
+	height: 100vh;
+}
+
+#LandingIntro{
+	padding-top: 160px;
+}
+
+/* ------ About ------ */
+#About{
+	height: 100vh;
+	max-width: 1300px;
+}
+
+#AboutContent{
+	height: 80vh;
+	position: relative;
+	top: 20%;
+}
+
+#About img{
+	height: 150px;
+}
+
+#About h3{
+	font-size: 18px;
+}
+
+
+
+
+
+#AboutMe{
+	padding-right: 100px;
+	height: 100vh;
+	padding-top: 160px;
+}
+
+#AboutMeContent{
+}
+
+#AboutMe img{
+	height: 550px;
+	border: solid 20px #fdefda;
+}
+
+#AboutMe h1{
+	font-size: 60px;
+	color: #d4796a;
+}
+
+/* ------ Skills ------ */
+#Skills{
+	height: 100vh;
+	max-width: 1300px;
+}
+
+#SkillsImg{
+	width: 30vw;
+
+}
+
+#MySkills{
+	padding: 180px 50px 100px 50px;
+	height: 86vh;
+}
+
+#MySkills img{
+	padding: 10px;
+}
+
+#MySkills h1{
+	font-size: 60px;
+}
+
+/* ------ Portfolio ------ */
+#Portfolio{
+	/*background-image: url("images/pinkmarble.jpg");
+	background-size: 100%;*/
+	min-height: 100vh;
+	padding: 130px 50px 50px 50px;
+	color: #000000;
+	text-shadow: 2px 2px 8px #f8f8f8;
+}
+
+#Portfolio .headingMain{
+	font-size: 60px;
+	padding-bottom: 10px;
+	color: #d4796a;
+	
+}
+
+#PortfolioContent{
+	/*
+	max-width: 1100px;
+	*/
+}
+
+.portfolioBlock img{
+	height: 400px;
+	width: 200px;
+	border: solid 20px #fdefda;
+}
+
+.portfolioBlock img:hover{
+	cursor: pointer;
+	border: solid 20px #d4796a;
+}
+
+.portfolioBlock{
+	/*background-color: rgba(0,0,0,0.5);*/
+	padding: 20px 10px;
+}
+
+.portfolioBlock h1{
+	font-size: 30px;
+}
+
+.portfolioBlock h3{
+	font-size: 20px;
+}
+
+.portfolioBlock p{
+	font-style: italic;
+}
+
+/* ------ Connect ------ */
+#Connect{
+	background-color: rgba(0,0,0,0.5);
+	color: #ffffff;
+	padding: 50px;
+}
